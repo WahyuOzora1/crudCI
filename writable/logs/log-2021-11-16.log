@@ -1,0 +1,113 @@
+CRITICAL - 2021-11-16 18:22:02 --> Invalid file: admin_list_hantu.php
+#0 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_list_hant...')
+#1 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin_list_hant...', Array, true)
+#2 D:\Xampp7.4\htdocs\hantuApp\app\Controllers\Home.php(9): view('admin_list_hant...')
+#3 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp7.4\htdocs\hantuApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp7.4\\htd...')
+#8 {main}
+ERROR - 2021-11-16 19:17:07 --> Error connecting to the database: Class 'SQLite3' not found
+ERROR - 2021-11-16 19:17:54 --> Error connecting to the database: Class 'SQLite3' not found
+ERROR - 2021-11-16 19:19:09 --> Unknown table 'db_hantu.tb_mahasiswa'
+ERROR - 2021-11-16 19:23:32 --> Error connecting to the database: Class 'SQLite3' not found
+CRITICAL - 2021-11-16 19:24:23 --> Cannot declare class App\Database\Migrations\Hantu, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-16 19:25:37 --> Cannot declare class App\Database\Migrations\Hantu, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-16 19:48:42 --> Invalid file: .php
+#0 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('', Array, true)
+#2 D:\Xampp7.4\htdocs\hantuApp\app\Controllers\Home.php(9): view('')
+#3 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp7.4\htdocs\hantuApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp7.4\\htd...')
+#8 {main}
+ERROR - 2021-11-16 19:50:28 --> Table 'db_hantu.mahasiswas' doesn't exist
+CRITICAL - 2021-11-16 19:50:28 --> Table 'db_hantu.mahasiswas' doesn't exist
+#0 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Xampp7.4\htdocs\hantuApp\app\Controllers\Home.php(19): CodeIgniter\BaseModel->findAll()
+#7 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#8 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Xampp7.4\htdocs\hantuApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp7.4\\htd...')
+#12 {main}
+CRITICAL - 2021-11-16 20:48:24 --> Undefined index: nama_lengkap
+#0 D:\Xampp7.4\htdocs\hantuApp\app\Views\mahasiswa\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Xampp7.4\\htd...', 38, Array)
+#1 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Xampp7.4\\htd...')
+#2 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('mahasiswa/index...', Array, true)
+#4 D:\Xampp7.4\htdocs\hantuApp\app\Controllers\MahasiswaController.php(23): view('mahasiswa/index...', Array)
+#5 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\MahasiswaController->index()
+#6 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+#7 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp7.4\htdocs\hantuApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp7.4\\htd...')
+#10 {main}
+CRITICAL - 2021-11-16 20:49:00 --> Undefined index: nama_mahsiswa
+#0 D:\Xampp7.4\htdocs\hantuApp\app\Views\mahasiswa\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Xampp7.4\\htd...', 38, Array)
+#1 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\Xampp7.4\\htd...')
+#2 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('mahasiswa/index...', Array, true)
+#4 D:\Xampp7.4\htdocs\hantuApp\app\Controllers\MahasiswaController.php(23): view('mahasiswa/index...', Array)
+#5 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\MahasiswaController->index()
+#6 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+#7 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp7.4\htdocs\hantuApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp7.4\\htd...')
+#10 {main}
+CRITICAL - 2021-11-16 21:24:07 --> Invalid file: ../template/footer.php
+#0 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../template/foo...')
+#1 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('../template/foo...', Array, true)
+#2 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('mahasiswa/index...', Array, true)
+#3 D:\Xampp7.4\htdocs\hantuApp\app\Controllers\MahasiswaController.php(23): view('mahasiswa/index...', Array)
+#4 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\MahasiswaController->index()
+#5 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+#6 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp7.4\htdocs\hantuApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp7.4\\htd...')
+#9 {main}
+CRITICAL - 2021-11-16 21:24:29 --> Invalid file: ../template/footer.php
+#0 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../template/foo...')
+#1 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('../template/foo...', Array, true)
+#2 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('mahasiswa/index...', Array, true)
+#3 D:\Xampp7.4\htdocs\hantuApp\app\Controllers\MahasiswaController.php(23): view('mahasiswa/index...', Array)
+#4 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\MahasiswaController->index()
+#5 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+#6 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp7.4\htdocs\hantuApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp7.4\\htd...')
+#9 {main}
+CRITICAL - 2021-11-16 21:24:31 --> Invalid file: ../template/footer.php
+#0 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../template/foo...')
+#1 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('../template/foo...', Array, true)
+#2 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('mahasiswa/index...', Array, true)
+#3 D:\Xampp7.4\htdocs\hantuApp\app\Controllers\MahasiswaController.php(23): view('mahasiswa/index...', Array)
+#4 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\MahasiswaController->index()
+#5 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+#6 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp7.4\htdocs\hantuApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp7.4\\htd...')
+#9 {main}
+CRITICAL - 2021-11-16 21:24:41 --> Invalid file: ../template/header.php
+#0 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../template/hea...')
+#1 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('../template/hea...', Array, true)
+#2 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('mahasiswa/index...', Array, true)
+#3 D:\Xampp7.4\htdocs\hantuApp\app\Controllers\MahasiswaController.php(23): view('mahasiswa/index...', Array)
+#4 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\MahasiswaController->index()
+#5 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+#6 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp7.4\htdocs\hantuApp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Xampp7.4\htdocs\hantuApp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Xampp7.4\\htd...')
+#9 {main}
